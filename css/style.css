@@ -1,0 +1,63 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+/* main body  */
+body {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#kripalu1 img {
+    height: 500px;
+    position: absolute;
+    right: 5vw;
+    border-radius: 53px;
+    top: 11vh;
+}
+#kripalu2 img {
+    height: 500px;
+    position: absolute;
+    right: 5vw;
+    border-radius: 53px;
+    top: 11vh;
+}
+
+/* utility classes */
+.background {
+    background-image: linear-gradient(to right, rgb(189, 176, 248),rgb(176, 208, 251));
+}
+section{
+position: absolute;
+top: 5vh;
+left: 30vh;
+font-family: sans-serif;
+max-width: 50%;
+
+}
+section h1 {
+    font-size: 4rem;
+    }
+section p {
+    font-size: 2rem;
+}
+button {
+    font-size: 2rem;
+    padding: 7px;
+    border-radius: 12px;
+}
+button:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+
+}
+#date{
+    color: #96321c;
+    background-color: rgb(245, 242, 82);
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 15px;
+}

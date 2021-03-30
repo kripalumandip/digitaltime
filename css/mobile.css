@@ -1,0 +1,24 @@
+@media only screen and (max-width:650px) {
+    section h1 {
+        font-size: 1.5rem;
+        }
+        section p {
+            font-size: 1rem;
+        }
+        section {
+            max-width: 50%;
+            position: absolute;
+            left: 5vw;
+            top: 10vw;
+        }
+        
+        #kripalu1 img {
+            height: 150px;
+        }
+        #kripalu2 img {
+            height: 150px;
+        }
+        button {
+            font-size: 1rem;
+        }
+}
